@@ -139,8 +139,8 @@ var reposList = document.getElementById('repos-list'),
 				+ '</a>';
 		}
 		reposList.innerHTML = html;
-		//projectsCount.innerHTML = l + ' repositories; ' + lp + ' public, ' + lf + ' forks';
-		projectsInfo.innerHTML = '<b class="stars">' + w + '</b> <b class="forks">' + f + '</b>';
+		projectsCount.innerHTML = l + ' repositories';
+		//projectsInfo.innerHTML = '<b class="stars">' + w + '</b> <b class="forks">' + f + '</b>';
 	};
 </script>
 <script src="https://api.github.com/users/puneetkay/starred?callback=load&per_page=300"></script>
